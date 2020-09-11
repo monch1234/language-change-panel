@@ -1,0 +1,39 @@
+.Navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: 'Blinker', sans-serif;
+}
+
+nav{
+    display: flex;
+    font-size: 25px;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li :hover{
+color: red;
+transition: 0.5s;
+}
+
+select{
+    border: 1px solid red;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+select option {
+    color: black
+}
